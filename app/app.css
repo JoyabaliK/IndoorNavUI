@@ -23,3 +23,67 @@
   content: "|";
   padding-right: 0.3em;
 }
+
+
+#floorplan{
+    /*background-repeat: repeat-x;  */  
+    height:600px;
+    width: 984px;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+#floorplan .content{    
+    width: 984px; /*328 co je 1/3 - 20margin left*/
+    height: 600px;
+    line-height: 20px;
+    margin-top: 0px;
+    margin-left: 9px;
+    margin-right:0px;
+    display:inline-block;
+    position:relative;
+    color:#FFF;
+    background: url("images/indoorfp.svg");
+    background-repeat: no-repeat;
+}
+
+#floorplan .content #cub1 {
+    position:absolute;
+    bottom:220px;
+    left:165px;
+}
+
+#floorplan .content #cub2 {
+    position:absolute;
+    bottom:250px;
+    left:165px;
+}
+#floorplan .content #cub3 {
+    position:absolute;
+    bottom:270px;
+    left:165px;
+}
+#floorplan .content #cub4 {
+    position:absolute;
+    bottom:50px;
+    right:10px;
+}
+
+#floorplan .content #cub5 {
+    position:absolute;
+    bottom:50px;
+    right:10px;
+}
+
+#floorplan .content #cub6 {
+    position:absolute;
+    bottom:50px;
+    right:10px;
+}
+
+#floorplan .content #cub7 {
+    position:absolute;
+    bottom:50px;
+    right:10px;
+}
+

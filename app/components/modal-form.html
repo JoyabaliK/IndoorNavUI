@@ -1,0 +1,25 @@
+<div class="modal-header">
+    <h3>Cubicle {{user.id}}</h3>
+</div>
+<form name="form.userForm" ng-submit="submitForm()" novalidate>
+    <div class="modal-body">
+        <!-- Name -->
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="name" class="form-control" ng-model="user.name" required>
+            <p ng-show="form.userForm.name.$invalid && !form.userForm.name.$pristine" class="help-block">You name is required.</p>
+        </div>
+
+        <!-- Description -->
+        <div class="form-group">
+            <label>Description</label>
+            <input type="text" name="description" class="form-control" ng-model="user.description"required>
+            <p ng-show="form.userForm.description.$invalid && !form.userForm.description.$pristine" class="help-block">Please write some description</p>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button type="submit" class="btn btn-primary" ng-disabled="form.userForm.$invalid">OK</button>
+        <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+    </div>
+</form>
