@@ -31,6 +31,8 @@
     width: 984px;
     margin-left: 20px;
     margin-top: 13px;
+    position: absolute;
+    z-index: -1;
 }
 
 #floorplan .content{    
@@ -60,30 +62,261 @@
 }
 #floorplan .content #cub3 {
     position:absolute;
-    bottom:270px;
+    bottom:290px;
     left:165px;
 }
 #floorplan .content #cub4 {
     position:absolute;
-    bottom:50px;
-    right:10px;
+    bottom:322px;
+    left:165px;
 }
 
 #floorplan .content #cub5 {
     position:absolute;
-    bottom:50px;
-    right:10px;
+    bottom:365px;
+    left:165px;
 }
 
 #floorplan .content #cub6 {
     position:absolute;
-    bottom:50px;
-    right:10px;
+    bottom:395px;
+    left:165px;
 }
 
 #floorplan .content #cub7 {
     position:absolute;
-    bottom:50px;
-    right:10px;
+    bottom:440px;
+    left:165px;
 }
 
+
+#floorplan .content #cub8 {
+    position:absolute;
+    bottom:220px;
+    left:210px;
+}
+
+#floorplan .content #cub9 {
+    position:absolute;
+    bottom:250px;
+    left:210px;
+}
+#floorplan .content #cub10 {
+    position:absolute;
+    bottom:290px;
+    left:210px;
+}
+#floorplan .content #cub11 {
+    position:absolute;
+    bottom:322px;
+    left:210px;
+}
+
+#floorplan .content #cub12 {
+    position:absolute;
+    bottom:365px;
+    left:210px;
+}
+
+#floorplan .content #cub13 {
+    position:absolute;
+    bottom:395px;
+    left:210px;
+}
+
+#floorplan .content #cub14 {
+    position:absolute;
+    bottom:440px;
+    left:210px;
+}
+
+
+
+#floorplan .content #cub15 {
+    position:absolute;
+    bottom:215px;
+    left:300px;
+}
+
+#floorplan .content #cub16 {
+    position:absolute;
+    bottom:260px;
+    left:300px;
+}
+#floorplan .content #cub17 {
+    position:absolute;
+    bottom:295px;
+    left:300px;
+}
+
+
+#floorplan .content #cub18 {
+    position:absolute;
+    bottom:360px;
+    left:300px;
+}
+
+#floorplan .content #cub19 {
+    position:absolute;
+    bottom:405px;
+    left:300px;
+}
+
+#floorplan .content #cub20 {
+    position:absolute;
+    bottom:440px;
+    left:300px;
+}
+
+
+#floorplan .content #cub21 {
+    position:absolute;
+    bottom:215px;
+    left:350px;
+}
+
+#floorplan .content #cub22 {
+    position:absolute;
+    bottom:260px;
+    left:350px;
+}
+#floorplan .content #cub23 {
+    position:absolute;
+    bottom:295px;
+    left:350px;
+}
+#floorplan .content #cub24 {
+    position:absolute;
+    bottom:360px;
+    left:350px;
+}
+
+#floorplan .content #cub25 {
+    position:absolute;
+    bottom:405px;
+    left:350px;
+}
+
+
+
+
+
+
+#floorplan .content #cub26 {
+    position:absolute;
+    bottom:220px;
+    left:440px;
+}
+
+#floorplan .content #cub27 {
+    position:absolute;
+    bottom:250px;
+    left:440px;
+}
+#floorplan .content #cub28 {
+    position:absolute;
+    bottom:290px;
+    left:440px;
+}
+#floorplan .content #cub29 {
+    position:absolute;
+    bottom:322px;
+    left:440px;
+}
+
+#floorplan .content #cub30 {
+    position:absolute;
+    bottom:365px;
+    left:440px;
+}
+
+#floorplan .content #cub31 {
+    position:absolute;
+    bottom:395px;
+    left:440px;
+}
+
+#floorplan .content #cub32 {
+    position:absolute;
+    bottom:440px;
+    left:440px;
+}
+
+
+#floorplan .content #cub33 {
+    position:absolute;
+    bottom:220px;
+    left:485px;
+}
+
+#floorplan .content #cub34 {
+    position:absolute;
+    bottom:250px;
+    left:485px;
+}
+#floorplan .content #cub35 {
+    position:absolute;
+    bottom:290px;
+    left:485px;
+}
+#floorplan .content #cub36 {
+    position:absolute;
+    bottom:322px;
+    left:485px;
+}
+
+#floorplan .content #cub37 {
+    position:absolute;
+    bottom:365px;
+    left:485px;
+}
+
+#floorplan .content #cub38 {
+    position:absolute;
+    bottom:395px;
+    left:485px;
+}
+
+#floorplan .content #cub39 {
+    position:absolute;
+    bottom:440px;
+    left:485px;
+}
+
+
+
+
+#floorplan .content #cub40 {
+    position:absolute;
+    bottom:360px;
+    left:570px;
+}
+
+#floorplan .content #cub41 {
+    position:absolute;
+    bottom:405px;
+    left:570px;
+}
+
+#floorplan .content #cub42 {
+    position:absolute;
+    bottom:440px;
+    left:570px;
+}
+
+
+#floorplan .content #cub43 {
+    position:absolute;
+    bottom:360px;
+    left:620px;
+}
+
+#floorplan .content #cub44 {
+    position:absolute;
+    bottom:405px;
+    left:620px;
+}
+
+#canvasmargin {
+  margin: 25px 0px 0px 42px;
+}
